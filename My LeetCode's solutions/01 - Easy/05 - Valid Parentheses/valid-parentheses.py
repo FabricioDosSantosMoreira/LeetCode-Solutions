@@ -3,6 +3,9 @@ from typing import List
 
 class Solution:
     def isValid(self, s: str) -> bool:
+
+        # NOTE: Time Complexity = O(n)
+        # 'n' is the length of of the string 's'
         if len(s) % 2 > 0: # if 's' is odd then 's' isn't valid
             return False
 
