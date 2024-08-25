@@ -5,7 +5,7 @@ class Solution:
     def romanToInt(self, s: str) -> int:
 
         # NOTE: Time Complexity = O(n)
-        # 'n' is the length of the input string 's'
+        # 'n' is the length of the string 's'
         ROMANS: Dict[str, int] = {
             "I": 1, 
             "V": 5, 
