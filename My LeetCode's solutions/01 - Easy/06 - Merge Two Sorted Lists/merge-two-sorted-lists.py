@@ -13,6 +13,10 @@ class ListNode:
 
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+
+        # NOTE: Time Complexity = O(m + n)
+        # 'm' is the length of 'list1'
+        # 'n' is the length of 'list2'
         dummy = ListNode() 
         tail = dummy 
 
