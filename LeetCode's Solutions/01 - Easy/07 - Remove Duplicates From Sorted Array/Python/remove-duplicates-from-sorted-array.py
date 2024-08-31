@@ -3,7 +3,6 @@ from typing import List
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        
         # NOTE: Time Complexity = O(n log n) 
         # 'n' is the length of the list 'nums'
         nums[:] = sorted(set(nums))
@@ -40,41 +39,41 @@ class Solution:
 solution = Solution()
 
 
-nums = [-3, -1, 0, 0, 0, 3, 3]
+nums: List[int] = [-3, -1, 0, 0, 0, 3, 3]
 answer = solution.removeDuplicates(nums=nums)
 print(f"return: {answer} {nums}")
 
 
-nums = [-1, 0, 0, 0, 0, 3, 3]
+nums: List[int] = [-1, 0, 0, 0, 0, 3, 3]
 answer = solution.removeDuplicates(nums=nums)
 print(f"return: {answer} {nums}")
 
 
-nums = [1, 1, 2, 3]
+nums: List[int] = [1, 1, 2, 3]
 answer = solution.removeDuplicates(nums=nums)
 print(f"return: {answer} {nums}")
 
 
-nums = [1, 2, 3]
+nums: List[int] = [1, 2, 3]
 answer = solution.removeDuplicates(nums=nums)
 print(f"return: {answer} {nums}")
 
 
-nums = [1, 2]
+nums: List[int] = [1, 2]
 answer = solution.removeDuplicates(nums=nums)
 print(f"return: {answer} {nums}")
 
 
-nums = [1, 1]
+nums: List[int] = [1, 1]
 answer = solution.removeDuplicates(nums=nums)
 print(f"return: {answer} {nums}")
 
 
-nums = [1, 1, 2]
+nums: List[int] = [1, 1, 2]
 answer = solution.removeDuplicates(nums=nums)
 print(f"return: {answer} {nums}")
 
 
-nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+nums: List[int] = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
 answer = solution.removeDuplicates(nums=nums)
 print(f"return: {answer} {nums}")

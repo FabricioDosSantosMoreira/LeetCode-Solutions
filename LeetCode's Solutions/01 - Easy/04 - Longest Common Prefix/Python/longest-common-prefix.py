@@ -27,51 +27,51 @@ class Solution:
 solution = Solution()
 
 
-strs = ["cir","car"]
+strs: List[str] = ["cir","car"]
 answer = solution.longestCommonPrefix(strs=strs)
 print(f"return: {answer}")
 
 
-strs = ["abab","aba","abc"]
+strs: List[str] = ["abab","aba","abc"]
 answer = solution.longestCommonPrefix(strs=strs)
 print(f"return: {answer}")
 
 
-strs = ["aaa","aa","aaa"]
+strs: List[str] = ["aaa","aa","aaa"]
 answer = solution.longestCommonPrefix(strs=strs)
 print(f"return: {answer}")
 
 
-strs = ["reflower","flow","flight"]
+strs: List[str] = ["reflower","flow","flight"]
 answer = solution.longestCommonPrefix(strs=strs)
 print(f"return: {answer}")
 
 
-strs = ["flower", "flower", "flower", "flower"]
+strs: List[str] = ["flower", "flower", "flower", "flower"]
 answer = solution.longestCommonPrefix(strs=strs)
 print(f"return: {answer}")
 
 
-strs = ["flower", "flow", "flight"]
+strs: List[str] = ["flower", "flow", "flight"]
 answer = solution.longestCommonPrefix(strs=strs)
 print(f"return: {answer}")
 
 
-strs = ["dog","racecar","car"]
+strs: List[str] = ["dog","racecar","car"]
 answer = solution.longestCommonPrefix(strs=strs)
 print(f"return: {answer}")
 
 
-strs = ["a"]
+strs: List[str] = ["a"]
 answer = solution.longestCommonPrefix(strs=strs)
 print(f"return: {answer}")
 
 
-strs = ["ab", "a"]
+strs: List[str] = ["ab", "a"]
 answer = solution.longestCommonPrefix(strs=strs)
 print(f"return: {answer}")
 
 
-strs = [""]
+strs: List[str] = [""]
 answer = solution.longestCommonPrefix(strs=strs)
 print(f"return: {answer}")
