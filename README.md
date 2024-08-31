@@ -1,1 +1,1 @@
-# 📖 My-LeetCode-Solutions
+# 📖 LeetCode's Solutions
